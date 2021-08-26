@@ -1,1 +1,1 @@
-# tryhackme-card
+# THM-Card

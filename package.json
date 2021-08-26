@@ -1,0 +1,29 @@
+{
+  "name": "THM-Card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabioSLeao/THM-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabioSLeao/THM-Card/issues"
+  },
+  "homepage": "https://github.com/FabioSLeao/THM-Card#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdom": "^17.0.0",
+    "xml": "^1.0.1",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {}
+}
