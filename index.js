@@ -9,7 +9,7 @@ app.get('/card', (req, res) => {
 
     var dataToSend;
     const id = req.query.id
-    const python = spawn('python', ['script1.py', id])
+    const python = spawn('python', ['get_svg.py', id])
     python.stdout.on('data', function (data) {
         console.log('Pipe data from python script ...')
         dataToSend = data.toString();
